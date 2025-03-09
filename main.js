@@ -17,6 +17,7 @@ let items = {
     "evil": 666,
     "heavenly": 9999,
 };
+localStorage.removeItem("inventory")
 document.getElementById("reset").addEventListener("click", () => {
     const confirmDelete = confirm("Do you want to reset your progress?")
     if (confirmDelete) {
@@ -27,12 +28,12 @@ document.getElementById("reset").addEventListener("click", () => {
         return
     }
 })
-window.onload = function() {
-    const saved = localStorage.getItem('inventory')
-    if (saved){
-        inventory.innerHTML = saved
-    }
-}
+//window.onload = function() {
+//    const saved = localStorage.getItem('inventory')
+//    if (saved){
+//        inventory.innerHTML = saved
+//    }
+//}
 function weightedRandom() {
     const itemList = Object.entries(items);
     const totalWeight = itemList.reduce((acc, [, value]) => acc + (1 / value), 0);
@@ -79,7 +80,7 @@ function animation(){
                         <br>
                         <hr>
                         `
-                    localStorage.setItem('inventory',inventory.innerHTML)
+                    //localStorage.setItem('inventory',inventory.innerHTML)
               }, 1000);
         }
     }
