@@ -101,3 +101,8 @@ button:hover {
     0 4px 6px 0 #cecece;
     cursor: pointer;
 }
+@media (max-width: 768px) {/
+    button {
+        width:50%
+    }
+}
