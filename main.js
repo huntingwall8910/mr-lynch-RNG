@@ -27,12 +27,12 @@ document.getElementById("reset").addEventListener("click", () => {
         return
     }
 })
-//window.onload = function() {
-//    const saved = localStorage.getItem('inventory')
-//    if (saved){
-//        inventory.innerHTML = saved
-//    }
-//}
+window.onload = function() {
+    const saved = localStorage.getItem('inventory')
+    if (saved){
+        inventory.innerHTML = saved
+    }
+}
 function weightedRandom() {
     const itemList = Object.entries(items);
     const totalWeight = itemList.reduce((acc, [, value]) => acc + (1 / value), 0);
