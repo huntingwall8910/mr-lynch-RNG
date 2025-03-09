@@ -1,0 +1,103 @@
+@font-face {
+    font-family: papyrus;
+    src: url("papyrus.ttf");
+}
+* {
+    font-family: papyrus;
+    text-align: center;
+    user-select: none;
+    color:white;
+}
+body {
+    background-color: black;
+}
+header {
+    font-size: 40px;
+}
+#gray-box {
+    cursor:not-allowed;
+    position: fixed;
+    top: 0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:rgba(127, 127, 127, 0.5);
+    display:none;
+}
+#display {
+    position: fixed;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 50px;
+    background-color: #16161f;
+    display:none;
+}
+#chance {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #16161f;
+    display:none;
+    font-size:30px;
+}
+#inventory {
+    z-index: -10;
+    margin:auto;
+    border:solid white 3px;
+    transform: translateY(10px);
+    height:500px;
+    width:300px;
+    text-align: left;
+    overflow-y: auto;
+}
+#inventory > img {
+    padding:0px;
+    text-align: right;
+    float:right;
+    width:57px;
+    height:57px;
+}
+#reset {
+    border:white solid;
+    background-color: black;
+    position: absolute;
+    top:0;
+    left:0;
+    cursor: pointer;
+}
+button{
+    background-color: green;
+    border: white solid 3px;
+    font-size: 40px;
+    border-radius: 0.5em;
+    box-shadow: 
+    inset 0 1px 0 0 #f4f4f4,
+    0 1px 0 0 #efefef,
+    0 2px 0 0 #ececec,
+    0 4px 0 0 #e0e0e0,
+    0 5px 0 0 #dedede,
+    0 6px 0 0 #dcdcdc,
+    0 7px 0 0 #cacaca,
+    0 7px 8px 0 #cecece;
+    width:25%;
+    height:20%;
+}
+button:disabled {
+    background-color: #ff0000;
+    cursor: not-allowed;
+}
+button:hover {
+    transform: translateY(4px);
+    box-shadow: 
+    inset 0 1px 0 0 #f4f4f4,
+    0 1px 0 0 #efefef,
+    0 1px 0 0 #ececec,
+    0 2px 0 0 #e0e0e0,
+    0 2px 0 0 #dedede,
+    0 3px 0 0 #dcdcdc,
+    0 4px 0 0 #cacaca,
+    0 4px 6px 0 #cecece;
+    cursor: pointer;
+}
