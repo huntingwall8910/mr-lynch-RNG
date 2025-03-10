@@ -27,9 +27,9 @@ const items = {
     "evil": 666, //evil number
     "mythic": 1000, //1000 is a good number
     "naruto": 1014, //there are 1014 episodes of naruto
+    "gojo": 1989, //gojo was born in 1989
     "eye of": 2025, //current year idk
     "fishy": 2200, //fishy fortnite bunble was 2200 vbucks
-    "gojo": 9001, //ITS OVER 9000!!!!!
     "heavenly": 9999 //9999 is a heavenly number or something
 };  
 let savedInventory = JSON.parse(localStorage.getItem("inventory")) || {};
