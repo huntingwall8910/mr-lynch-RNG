@@ -7,30 +7,30 @@ const image = document.getElementById("roll-image")
 const inventory = document.getElementById("inventory");
 const items = {
     "common": 2,
-    "quad": 4,
-    "uncommon": 5,
-    "rare": 20,
-    "miku": 25,
-    "vector": 32,
-    "santa": 50,
-    "FlightReacts": 69,
-    "skibidi": 77,
-    "luffy": 75,
-    "cat": 83,
-    "epic": 99,
-    "shrek": 120,
-    "teletubbies":121,
-    "deku": 372,
-    "walter white": 420,
-    "lebron": 500,
-    "evil": 666,
-    "martian":868,
-    "mythic": 1000,
-    "naruto": 1014,
-    "eye of": 2025,
-    "fishy": 2200,
-    "gojo": 9000,
-    "heavenly": 9999
+    "quad": 4, //because there are 4
+    "uncommon": 5, //5
+    "rare": 20, //20 is a good number
+    "miku": 25, //nightcord at 25:00
+    "santa": 50, //50 is a good number
+    "FlightReacts": 69, //you know
+    "skibidi": 77, //because there are 77 episodes of skibidi toilet
+    "luffy": 75, //75 is a good number
+    "cat": 83, //83 looks like a cat
+    "epic": 99, //epicdudebro99
+    "shrek": 120, //5 factorial is 120 and there are 5 shrek movies
+    "martian":140, //distance to earth from mars
+    "vector": 238, //the distance from earth to the moon is 238,000 miles
+    "teletubbies":365, //there are 365 episodes of teletubbies
+    "walter white": 420, //you know why
+    "lebron": 500, //500 is a good number
+    "deku": 596, //funko pop 596
+    "evil": 666, //evil number
+    "mythic": 1000, //1000 is a good number
+    "naruto": 1014, //there are 1014 episodes of naruto
+    "eye of": 2025, //current year idk
+    "fishy": 2200, //fishy fortnite bunble was 2200 vbucks
+    "gojo": 9001, //ITS OVER 9000!!!!!
+    "heavenly": 9999 //9999 is a heavenly number or something
 };  
 let savedInventory = JSON.parse(localStorage.getItem("inventory")) || {};
 const resetButton = document.getElementById("reset");
