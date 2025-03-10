@@ -98,6 +98,7 @@ header {
     0 7px 8px 0 #cecece;
     width:25%;
     height:20%;
+    z-index:10;
 }
 #roll:disabled {
     background-color: #ff0000;

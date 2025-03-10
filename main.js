@@ -1,4 +1,4 @@
-const button = document.querySelector("button");
+const button = document.getElementById("roll");
 const bg = document.getElementById("gray-box");
 const disp = document.getElementById("display");
 const change = document.getElementById("chance");
