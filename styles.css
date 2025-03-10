@@ -46,8 +46,8 @@ header {
     font-size:30px;
 }
 #roll-image {
-    width:200px;
-    height:200px;
+    width:20vh;
+    height:20vh;
     position: fixed;
     z-index: 99;
     top: 45%;
@@ -130,6 +130,9 @@ header {
     text-align: left;
 }
 @media (max-width: 768px) {
+    #display{
+        font-size:20px;
+    }
     #roll {
         width:50%
     }
