@@ -17,6 +17,7 @@ header {
 #gray-box {
     cursor:not-allowed;
     position: fixed;
+    z-index: 98;
     top: 0;
     left:0;
     width:100%;
@@ -26,6 +27,7 @@ header {
 }
 #display {
     position: fixed;
+    z-index: 99;
     top: 25%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -35,29 +37,42 @@ header {
 }
 #chance {
     position: fixed;
-    top: 40%;
+    z-index: 99;
+    top: 55%;
     left: 50%;
     transform: translate(-50%,-50%);
     background-color: #16161f;
     display:none;
     font-size:30px;
 }
+#roll-image {
+    width:200px;
+    height:200px;
+    position: fixed;
+    z-index: 99;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display:none;
+}
 #inventory {
-    z-index: -10;
+    position: relative;
+    z-index: 10;
     margin:auto;
     border:solid white 3px;
     transform: translateY(10px);
-    height:500px;
+    height:400px;
     width:300px;
     text-align: left;
     overflow-y: auto;
+    pointer-events: auto;
 }
-#inventory > img {
+#inventory > div > img {
     padding:0px;
     text-align: right;
     float:right;
-    width:57px;
-    height:57px;
+    width:83px;
+    height:83px;
 }
 #reset {
     border:white solid;
@@ -67,7 +82,7 @@ header {
     left:0;
     cursor: pointer;
 }
-button{
+#roll{
     background-color: green;
     border: white solid 3px;
     font-size: 40px;
@@ -84,11 +99,11 @@ button{
     width:25%;
     height:20%;
 }
-button:disabled {
+#roll:disabled {
     background-color: #ff0000;
     cursor: not-allowed;
 }
-button:hover {
+#roll:hover {
     transform: translateY(4px);
     box-shadow: 
     inset 0 1px 0 0 #f4f4f4,
@@ -102,7 +117,26 @@ button:hover {
     cursor: pointer;
 }
 @media (max-width: 768px) {
-    button {
+    #roll {
         width:50%
     }
+}
+.delete,#toggle{
+    color:black;
+    cursor: pointer;
+}
+#toggle {
+    transform: translateY(10px);
+}
+#update-log {
+    border: solid white 3px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 20%;
+    height: 300px;
+    overflow-y: auto;
+}
+#update-log > p {
+    text-align: left;
 }
