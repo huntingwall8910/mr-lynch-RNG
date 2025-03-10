@@ -116,18 +116,6 @@ header {
     0 4px 6px 0 #cecece;
     cursor: pointer;
 }
-@media (max-width: 768px) {
-    #roll {
-        width:50%
-    }
-}
-.delete,#toggle{
-    color:black;
-    cursor: pointer;
-}
-#toggle {
-    transform: translateY(10px);
-}
 #update-log {
     border: solid white 3px;
     position: absolute;
@@ -139,4 +127,19 @@ header {
 }
 #update-log > p {
     text-align: left;
+}
+@media (max-width: 768px) {
+    #roll {
+        width:50%
+    }
+    #update-log {
+        display:none
+    }
+}
+.delete,#toggle{
+    color:black;
+    cursor: pointer;
+}
+#toggle {
+    transform: translateY(10px);
 }
