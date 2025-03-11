@@ -55,6 +55,9 @@ header {
     transform: translate(-50%,-50%);
     display:none;
 }
+#inventory > div {
+    position: relative;
+}
 #inventory {
     position: relative;
     z-index: 10;
@@ -68,6 +71,8 @@ header {
     pointer-events: auto;
 }
 #inventory > div > img {
+    transition: transform 0.2s;
+    display:block;
     padding:0px;
     text-align: right;
     float:right;
@@ -129,6 +134,33 @@ header {
 #update-log > p {
     text-align: left;
 }
+.delete,#toggle{
+    color:black;
+    cursor: pointer;
+}
+#toggle {
+    transform: translateY(10px);
+}
+#total {
+    position:absolute;
+    right:0;
+    bottom:0;
+    transform: translateY(-25px);
+}
+#unlocked {
+    position:absolute;
+    right:0;
+    bottom:0;
+}
+#rarest {
+    position: absolute;
+    left:0;
+    top:25%;
+}
+#rarest > img {
+    width:20vw;
+    height:20vw;
+}
 @media (max-width: 768px) {
     #display{
         font-size:20px;
@@ -140,10 +172,8 @@ header {
         display:none
     }
 }
-.delete,#toggle{
-    color:black;
-    cursor: pointer;
-}
-#toggle {
-    transform: translateY(10px);
+@media (max-height:620px){
+    #total,#unlocked {
+        display:none;
+    }
 }
