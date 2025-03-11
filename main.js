@@ -21,7 +21,7 @@ const items = {
     "martian":140, //distance to earth from mars
     "vector": 238, //the distance from earth to the moon is 238,000 miles
     "teletubby":365, //there are 365 episodes of teletubbies
-    "walter white": 420, //you know why
+    "walter-white": 420, //you know why
     "lebron": 500, //500 is a good number
     "deku": 596, //funko pop 596
     "evil": 666, //evil number
