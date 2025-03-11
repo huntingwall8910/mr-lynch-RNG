@@ -171,6 +171,9 @@ header {
     #update-log {
         display:none
     }
+    #rarest {
+        display:none;
+    }
 }
 @media (max-height:620px){
     #total,#unlocked {
