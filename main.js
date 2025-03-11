@@ -28,7 +28,7 @@ const items = {
     "mythic": 1000, //1000 is a good number
     "naruto": 1014, //there are 1014 episodes of naruto
     "gojo": 1989, //gojo was born in 1989
-    "eye of": 2025, //current year idk
+    "eye%20of": 2025, //current year idk
     "fishy": 2200, //fishy fortnite bunble was 2200 vbucks
     "heavenly": 9999 //9999 is a heavenly number or something
 };  
