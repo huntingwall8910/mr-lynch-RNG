@@ -27,13 +27,11 @@ const items = {
     "martian":140, //distance to earth from mars
     "asian":167, //https://en.wikipedia.org/wiki/Chinese_numerology#:~:text=167
     "vector": 238, //the distance from earth to the moon is 238,000 miles
-    "teletubby":365, //there are 365 episodes of teletubbies
-    "walter-white": 420, //you know why
     "two-hundred-fifty-six":256, //for obvious reasons
     "bodyarmor":300, //we didnt have 300 yet
-    "teletubbies":365, //there are 365 episodes of teletubbies
+    "teletubby":365, //there are 365 episodes of teletubbies
     "missing":404, //404 not found
-    "walter white": 420, //you know why
+    "walter-white": 420, //you know why
     "lebron": 500, //500 is a good number
     "five-hundred-twelve":512, //for obvious reasons
     "deku": 596, //funko pop 596
@@ -46,7 +44,9 @@ const items = {
     "hacker":1337, //1337
     "soldier":1945, //ww2
     "gojo": 1989, //gojo was born in 1989
-    "eye of": 2025, //current year idk
+    "shadow":2001, //shadow the hedgehog canonically caused 9/11
+    "guest":2017, //guests were removed in 2017
+    "eye-of": 2025, //current year idk
     "fishy": 2200, //fishy fortnite bunble was 2200 vbucks
     "peter-digler":3000,//peter digler
     "FlightReacts": 5000, //blame trenton
