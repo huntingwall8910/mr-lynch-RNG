@@ -36,6 +36,7 @@ const items = {
     "five-hundred-twelve":512, //for obvious reasons
     "deku": 596, //funko pop 596
     "evil": 666, //evil number
+    "FlightReacts": 696, //blame trenton
     "mythic": 1000, //1000 is a good number
     "naruto": 1014, //there are 1014 episodes of naruto
     "phone":1199, //iphone 16 pro max is $1199
@@ -49,7 +50,6 @@ const items = {
     "eye-of": 2025, //current year idk
     "fishy": 2200, //fishy fortnite bunble was 2200 vbucks
     "peter-digler":3000,//peter digler
-    "FlightReacts": 5000, //blame trenton
     "invincible":7500, //its like he's
     "goku":9001, //ITS OVER 9000!!!!!!!
     "heavenly": 9999, //9999 is a heavenly number or something
