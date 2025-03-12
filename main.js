@@ -6,6 +6,7 @@ const toggle = document.getElementById("toggle");
 const image = document.getElementById("roll-image")
 const inventory = document.getElementById("inventory");
 const icon = document.querySelector("link[rel=icon]")
+const auto = document.getElementById("auto");
 const items = {
     "common": 2,
     "quad": 4, //because there are 4
@@ -104,6 +105,25 @@ function rarestPull() {
         (items[a[0]] > items[b[0]] ? a : b)
     )[0];
 }
+if (items[rarestPull()] > 1000){
+    auto.style.display = 'inline-block'
+}
+let autoRolling = false;
+let start = true
+auto.addEventListener("click", () => {
+    autoRolling = !autoRolling
+    if (start) {
+        animation()
+        start = false
+    }
+    if (autoRolling){
+        auto.style.backgroundColor = 'green'
+    }
+    else {
+        auto.style.backgroundColor = 'red'
+        start = true
+    }
+});
 icon.href = `/images/${rarestPull()}.jpg`
 function updateInv() {
     inventory.innerHTML = "";
@@ -165,10 +185,20 @@ function animation() {
                 savedInventory[final] = (savedInventory[final] || 0) + 1;
                 localStorage.setItem("inventory", JSON.stringify(savedInventory));
                 updateInv();
+                if (autoRolling) {
+                    setTimeout(animation,500)
+                }
             }, 1000);
         }
     }
     update();
 }
-button.addEventListener("click", animation);
+button.addEventListener("click", (event) => {
+    if (event.isTrusted == true){
+        animation()
+    }
+    else {
+        console.log("I see you")
+    }
+});
 updateInv();
