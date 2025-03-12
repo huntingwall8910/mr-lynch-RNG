@@ -5,6 +5,7 @@ const change = document.getElementById("chance");
 const toggle = document.getElementById("toggle");
 const image = document.getElementById("roll-image")
 const inventory = document.getElementById("inventory");
+const icon = document.querySelector("link[rel=icon]")
 const items = {
     "common": 2,
     "quad": 4, //because there are 4
@@ -56,6 +57,17 @@ const items = {
     "tuff":20000, //+20000 aura
     "just-lebron-not":50000, //lebron is the first nba player to reach 50,000 career points
 };  
+function weightedRandom() {
+    const itemList = Object.entries(items);
+    const totalWeight = itemList.reduce((acc, [, value]) => acc + (1 / value), 0);
+    let randomValue = Math.random() * totalWeight;
+    for (let [item, value] of itemList) {
+        randomValue -= (1 / value);
+        if (randomValue <= 0) {
+            return item;
+        }
+    }
+}
 let savedInventory = JSON.parse(localStorage.getItem("inventory")) || {};
 const resetButton = document.getElementById("reset");
 let confirmReset = false;
@@ -79,17 +91,6 @@ toggle.addEventListener("click", () => {
     inventory.style.display = (inventory.style.display === 'none') ? 'block' : 'none';
     toggle.textContent = inventory.style.display === 'block' ? "Close" : "Open";
 });
-function weightedRandom() {
-    const itemList = Object.entries(items);
-    const totalWeight = itemList.reduce((acc, [, value]) => acc + (1 / value), 0);
-    let randomValue = Math.random() * totalWeight;
-    for (let [item, value] of itemList) {
-        randomValue -= (1 / value);
-        if (randomValue <= 0) {
-            return item;
-        }
-    }
-}
 function sortInventory() {
     return Object.fromEntries(
         Object.entries(savedInventory).sort(
@@ -103,6 +104,7 @@ function rarestPull() {
         (items[a[0]] > items[b[0]] ? a : b)
     )[0];
 }
+icon.href = `/images/${rarestPull()}.jpg`
 function updateInv() {
     inventory.innerHTML = "";
     savedInventory = sortInventory();
@@ -150,12 +152,16 @@ function animation() {
             disp.textContent = `${final.split("-").join(" ")} mr lynch`;
             chance.textContent = `1/${items[final].toLocaleString()}`;
             image.src = `/images/${final}.jpg`
+            document.title = `${final}! 🥳🎉`
+            icon.href = `/images/${final}.jpg`
             setTimeout(() => {
                 button.disabled = false;
                 bg.style.display = 'none';
                 disp.style.display = 'none';
                 chance.style.display = 'none';
                 image.style.display = 'none';
+                document.title = "Mr Lynch RNG"
+                icon.href = `/images/${rarestPull()}.jpg`
                 savedInventory[final] = (savedInventory[final] || 0) + 1;
                 localStorage.setItem("inventory", JSON.stringify(savedInventory));
                 updateInv();
