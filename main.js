@@ -118,7 +118,6 @@ function updateInv() {
             <br>
             1/${items[item].toLocaleString()}
             <br>
-            <button class="delete">Delete One</button>
             <hr>
         `;
         inventory.appendChild(itemDiv);
@@ -129,18 +128,6 @@ function updateInv() {
     document.getElementById("rarest-name").textContent = `Rarest Mr Lynch: \n ${rarestPull().split("-").join(" ")} mr lynch`
 
 }
-inventory.addEventListener("click", (event) => {
-    if (event.target.classList.contains("delete")) {
-        let item = event.target.parentElement.classList[1];
-        if (savedInventory[item] > 1) {
-            savedInventory[item]--;
-        } else {
-            delete savedInventory[item];
-        }
-        localStorage.setItem("inventory", JSON.stringify(savedInventory));  // Persist the updated inventory
-        updateInv();  // Update the displayed inventory
-    }
-});
 function animation() {
     button.disabled = true;
     bg.style.display = 'block';
