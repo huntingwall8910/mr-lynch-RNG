@@ -201,4 +201,9 @@ button.addEventListener("click", (event) => {
         console.log("I see you")
     }
 });
+document.addEventListener("visibilitychange", () => {
+    if (document.hidden) {
+        autoRolling = false
+    }
+})
 updateInv();
