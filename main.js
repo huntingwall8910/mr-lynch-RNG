@@ -108,13 +108,16 @@ function rarestPull() {
 if (items[rarestPull()] > 1000){
     auto.style.display = 'inline-block'
 }
+let isRolling = false;
 let autoRolling = false;
 let start = true
 auto.addEventListener("click", () => {
     autoRolling = !autoRolling
-    if (start) {
-        animation()
-        start = false
+    if (!isRolling){
+        if (start) {
+            animation()
+            start = false
+        }
     }
     if (autoRolling){
         auto.style.backgroundColor = 'green'
@@ -151,6 +154,7 @@ function updateInv() {
 
 }
 function animation() {
+    isRolling = true;
     button.disabled = true;
     bg.style.display = 'block';
     disp.style.display = 'block';
@@ -189,10 +193,25 @@ function animation() {
                     setTimeout(animation,500)
                 }
             }, 1000);
+            isRolling = false;
         }
     }
     update();
 }
+const links = document.getElementById("links")
+document.getElementById("icon").addEventListener("click", (event) => {
+    event.stopPropagation()
+    links.style.display = links.style.display == "none" ? "block" : "none"
+});
+const modal1 = document.getElementById("modal1")
+document.getElementById("openModal").addEventListener("click", () => {
+    bg.style.display = "block"
+    modal1.style.display = "block"
+})
+document.getElementById("close1").addEventListener("click", () => {
+    bg.style.display = "none"
+    modal1.style.display = "none"
+})
 button.addEventListener("click", (event) => {
     if (event.isTrusted == true){
         animation()
@@ -201,4 +220,13 @@ button.addEventListener("click", (event) => {
         console.log("I see you")
     }
 });
+document.addEventListener("click", () => {
+    if (links.style.display == "block") links.style.display = 'none'
+})
+document.addEventListener("visibilitychange",() => {
+    if (document.hidden) {
+        auto.style.backgroundColor = 'red'
+        autoRolling = false;
+    }
+})
 updateInv();
