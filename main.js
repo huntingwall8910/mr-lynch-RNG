@@ -105,7 +105,7 @@ function rarestPull() {
         (items[a[0]] > items[b[0]] ? a : b)
     )[0];
 }
-if (items[rarestPull()] > 1000){
+if (items[rarestPull()] >= 1000){
     auto.style.display = 'inline-block'
 }
 let autoRolling = false;
