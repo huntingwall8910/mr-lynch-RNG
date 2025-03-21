@@ -147,16 +147,14 @@ button {
 #toggle {
     transform: translateY(10px);
 }
-#total {
-    position:absolute;
-    right:0;
-    bottom:0;
-    transform: translateY(-25px);
+#stats {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
 }
-#unlocked {
-    position:absolute;
-    right:0;
-    bottom:0;
+#stats > p {
+    text-align: right;
+    line-height: 50%;
 }
 #rarest {
     position: absolute;
@@ -182,6 +180,7 @@ button {
     cursor:pointer;
 }
 #menu {
+    z-index:200;
     position:fixed;
     text-align: center;
     padding:0%;
@@ -242,6 +241,42 @@ button {
     right:0;
     top:0;
 }
+video {
+    display:none;
+    pointer-events: none;
+    position:fixed;
+    top:0%;
+    left:0%;
+    z-index: 999;
+    width:100%;
+    height:100%;
+    cursor:none,
+}
+#black-bg {
+    pointer-events: none;
+    cursor: none;
+    position: fixed;
+    top:0%;
+    left:0%;
+    z-index: 900;
+    width:100vw;
+    height:100vh;
+    background-color: #000000;
+    display:none;
+}
+ul.recipe {
+    list-style: disc; 
+    list-style-position: inside;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 0;
+}
+
+ul.recipe li {
+    text-align: center;
+    width: 100%; 
+}
 @media (max-width: 768px) {
     #display{
         font-size:20px;
@@ -256,8 +291,8 @@ button {
         display:none;
     }
 }
-@media (max-height:620px){
-    #total,#unlocked {
+@media (max-height:650px){
+    #total,#unlocked,#time {
         display:none;
     }
 }
