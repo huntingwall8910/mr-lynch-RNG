@@ -344,7 +344,7 @@ function animation() {
     image.style.display = 'block';
     let interval = 10, step = 0;
     //rigged
-    let final = "gold"//weightedRandom();
+    let final = weightedRandom();
     if (Object.keys(cutscenes).includes(final)) {
         document.getElementById("black-bg").style.display = 'block'
         video.style.display = 'block'
