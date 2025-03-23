@@ -61,7 +61,7 @@ button {
     display:none;
 }
 #inventory > div {
-    height:auto;
+    font-size:15px;
     position: relative;
 }
 #inventory {
