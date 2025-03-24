@@ -344,7 +344,7 @@ function animation() {
     image.style.display = 'block';
     let interval = 10, step = 0;
     //rigged
-    let final = weightedRandom();
+    const final = weightedRandom();
     if (Object.keys(cutscenes).includes(final)) {
         document.getElementById("black-bg").style.display = 'block'
         video.style.display = 'block'
@@ -490,6 +490,25 @@ document.getElementById("icon").addEventListener("click", (event) => {
 button.addEventListener("click", (event) => {
     if (event.isTrusted) animation();
     else console.log("I see you");
+});
+function formatJSON(jsonString) {
+    try {
+        const jsonObject = JSON.parse(jsonString);
+        let formatted = '<body style="line-height:0;">';
+        //loop through the JSON and wrap each key-value pair 
+        for (const [key, value] of Object.entries(jsonObject)) {
+            formatted += `<p><strong>${key}:</strong> ${value}</p>`;
+        }
+        formatted += "</body>"
+        return formatted;
+    } catch (error) {
+        return "Invalid JSON";
+    }
+}
+document.getElementById("openInv").addEventListener("click", () => {
+    let w = window.open("","inventory")
+    if(w) w.document.write(formatJSON(JSON.stringify(savedInventory)))
+    else alert("popups are disabled, please enable")
 });
 updateInv();
 //this doesnt mean anything i promise
