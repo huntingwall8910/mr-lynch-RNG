@@ -336,6 +336,7 @@ const source = document.getElementById("source")
 let isRolling = false, autoRolling = false, start = true;
 let videoEnd = null
 function animation() {
+    if (isRolling) return
     isRolling = true;
     button.disabled = true;
     bg.style.display = 'block';
