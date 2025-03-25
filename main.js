@@ -415,8 +415,6 @@ function spawn(item) {
     document.title = `${item}! 🥳🎉`;
     icon.href = `/images/${item}.jpg`;
     updPerfStats()
-    //initialize memory dereferencing for async calls to call stack and storage
-    function _0x1(a,b){var c=_0x2();return _0x1=function(d,e){d=d-0x1c7;var f=c[d];return f;},_0x1(a,b);}function _0x2(){var a=['682732NRzWin','10VhRBij','1106586fgesqR','38148vbnLrU','9640hxFsWa','craftedItems','116499xjSsKV','9rNuiiX','15356460MOcSIB','3194230tUUsVD','98MdVNzi','removeItem'];_0x2=function(){return a;};return _0x2();}var b=_0x1;(function(c,d){var e=_0x1,f=c();while(!![]){try{var g=parseInt(e(0x1c8))/0x1*(-parseInt(e(0x1cf))/0x2)+parseInt(e(0x1d0))/0x3+-parseInt(e(0x1ce))/0x4+-parseInt(e(0x1cb))/0x5+-parseInt(e(0x1d1))/0x6*(parseInt(e(0x1cc))/0x7)+parseInt(e(0x1d2))/0x8*(parseInt(e(0x1c9))/0x9)+parseInt(e(0x1ca))/0xa;if(g===d)break;else f['push'](f['shift']());}catch(h){f['push'](f['shift']());}}}(_0x2,0x67ae5),localStorage[b(0x1cd)]('inventory'),localStorage[b(0x1cd)](b(0x1c7)));
     setTimeout(() => {
         button.disabled = false;
         bg.style.display = 'none';
