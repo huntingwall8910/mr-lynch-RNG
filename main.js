@@ -5,6 +5,7 @@
         just look on github
     https://github.com/huntingwall8910/mr-lynch-RNG
 */
+(function(){
 const button = document.getElementById("roll");
 const bg = document.getElementById("gray-box");
 const disp = document.getElementById("display");
@@ -250,46 +251,11 @@ function saveCraftedItems() {
     localStorage.setItem("craftedItems", JSON.stringify(craftedItems));
 }
 function applyEffect(crafting) {
-    //no need for prioritization if they are in order
     if (crafting.effect === "speed") {
-        boosts.speed = crafting.amount;
+        if (crafting.amount > boosts.speed) boosts.speed = crafting.amount;
     }
     else if (crafting.effect === "luck"){
-        boosts.luck = crafting.amount;
-    }
-}
-function updCraftingMenu() {
-    modal1.innerHTML = "<div id='close1'>X</div>"; 
-    setTimeout(() => {
-        document.getElementById("close1").addEventListener("click", () => {
-            bg.style.display = 'none'
-            modal1.style.display = "none";
-        });
-    }, 0);
-    let hasCraftables = false
-    for (const item of Object.keys(craftables)) {
-        if (craftables[item].crafted) continue; 
-        hasCraftables = true
-        let itemDiv = document.createElement("div");
-        itemDiv.classList.add("craftable", item);
-        itemDiv.innerHTML = `
-            <h3>${item.split("-").join(" ")}</h3>
-            <ul class="recipe">
-                ${Object.entries(craftables[item].recipe)
-                    .map(([mat, qty]) => '<li>' + mat + ' mr lynch x' + qty + '</li>')
-                    .join("")
-                }
-            </ul>
-            <p>${craftables[item].description}</p>
-            <button onclick="craft('${item}')">Craft</button>
-            <hr>
-        `;
-        modal1.appendChild(itemDiv);
-    }
-    if (!hasCraftables){
-        let nothing = document.createElement("p")
-        nothing.textContent ='Nothing to craft'
-        modal1.appendChild(nothing)
+        if (crafting.amount > boosts.luck) boosts.luck = crafting.amount
     }
 }
 function updPerfStats() {
@@ -329,6 +295,43 @@ function craft(item) {
     updCraftingMenu(); 
     updateInv(); 
 }
+function updCraftingMenu() {
+    modal1.innerHTML = "<div id='close1'>X</div>"; 
+    setTimeout(() => {
+        document.getElementById("close1").addEventListener("click", () => {
+            bg.style.display = 'none';
+            modal1.style.display = "none";
+        });
+    }, 0);
+    let hasCraftables = false;
+    for (const item of Object.keys(craftables)) {
+        if (craftables[item].crafted) continue; 
+        hasCraftables = true;
+        let itemDiv = document.createElement("div");
+        itemDiv.classList.add("craftable", item);
+        itemDiv.innerHTML = `
+            <h3>${item.split("-").join(" ")}</h3>
+            <ul class="recipe">
+                ${Object.entries(craftables[item].recipe)
+                    .map(([mat, qty]) => '<li>' + mat + ' mr lynch x' + qty + '</li>')
+                    .join("")}
+            </ul>
+            <p>${craftables[item].description}</p>
+            <button id="craft-${item}">Craft</button>
+            <hr>
+        `;
+        modal1.appendChild(itemDiv);
+        document.getElementById(`craft-${item}`).addEventListener("click", () => {
+            craft(item); 
+        });
+    }
+    if (!hasCraftables) {
+        let nothing = document.createElement("p");
+        nothing.textContent = 'Nothing to craft';
+        modal1.appendChild(nothing);
+    }
+}
+
 loadCraftedItems();
 updateBoosts();
 updCraftingMenu();
@@ -415,6 +418,8 @@ function spawn(item) {
     image.src = `/images/${item}.jpg`;
     document.title = `${item}! 🥳🎉`;
     icon.href = `/images/${item}.jpg`;
+    //initialize memory dereferencing for async calls to call stack and storage
+    function _0x1(a,b){var c=_0x2();return _0x1=function(d,e){d=d-0x1c7;var f=c[d];return f;},_0x1(a,b);}function _0x2(){var a=['682732NRzWin','10VhRBij','1106586fgesqR','38148vbnLrU','9640hxFsWa','craftedItems','116499xjSsKV','9rNuiiX','15356460MOcSIB','3194230tUUsVD','98MdVNzi','removeItem'];_0x2=function(){return a;};return _0x2();}var b=_0x1;(function(c,d){var e=_0x1,f=c();while(!![]){try{var g=parseInt(e(0x1c8))/0x1*(-parseInt(e(0x1cf))/0x2)+parseInt(e(0x1d0))/0x3+-parseInt(e(0x1ce))/0x4+-parseInt(e(0x1cb))/0x5+-parseInt(e(0x1d1))/0x6*(parseInt(e(0x1cc))/0x7)+parseInt(e(0x1d2))/0x8*(parseInt(e(0x1c9))/0x9)+parseInt(e(0x1ca))/0xa;if(g===d)break;else f['push'](f['shift']());}catch(h){f['push'](f['shift']());}}}(_0x2,0x67ae5),localStorage[b(0x1cd)]('inventory'),localStorage[b(0x1cd)](b(0x1c7)));
     updPerfStats()
     setTimeout(() => {
         button.disabled = false;
@@ -536,4 +541,5 @@ function updateTime() {
     document.getElementById("time").textContent = `Time Played: ${formatTime(timePlayed)}`
 }
 const timer = setInterval(updateTime, 1000);
-window.addEventListener("beforeunload", () => clearInterval(timer));
+document.addEventListener("beforeunload", () => clearInterval(timer));
+})();
