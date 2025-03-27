@@ -28,7 +28,7 @@ function checkOwnership() {
   return true;
 }
 if (!checkOwnership()) {
-    window.location.href = "about:blank"
+    window.location.href = "https://www.youtube.com/embed/hiRacdl02w4?autoplay=1"
 }
 const intervalId = setInterval(() => {
   claimOwnership();
