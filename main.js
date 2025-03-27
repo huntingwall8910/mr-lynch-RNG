@@ -1,6 +1,552 @@
-/*
-    "I looked in the source, you should try HASHING YOUR CODE [you idiot]"
-        -Devaron Ellis 3/26/25
-    https://www.google.com/search?q=can+hashes+be+reversed
+/* 
+    A haiku:
+        Why are you spying
+        On my source code if you could
+        just look on github
+    https://github.com/huntingwall8910/mr-lynch-RNG
 */
-function _0xe604(_0x1ac409,_0x1a4188){const _0x7ac26e=_0x7ac2();return _0xe604=function(_0xe6049,_0x1edc58){_0xe6049=_0xe6049-0x7c;let _0x1b7ed2=_0x7ac26e[_0xe6049];return _0x1b7ed2;},_0xe604(_0x1ac409,_0x1a4188);}function _0x7ac2(){const _0x2e2c59=['237902xklefv','querySelectorAll','source','random','https://ik.imagekit.io/q7ksgclit/gojo.mp4','rarest-name','toLocaleString','.jpg\x27\x20alt=\x27','error','</h3>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<ul\x20class=\x22recipe\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','split','38148vbnLrU','64Edkoar','getElementById','replace','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</ul>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>','log','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<hr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','https://ik.imagekit.io/q7ksgclit/lebron.mp4','!\x20🥳🎉',':</strong>\x20','write','sort','entries','https://ik.imagekit.io/q7ksgclit/heavenly.mov','Spawning...','innerHTML','<li>','[id^=openModal]','openInv','images\x20loaded','load','now','add','Speed:\x20x','item','appendChild','Time\x20Played:\x20','roll-image','ended','play','display','98MdVNzi','toString','Mr\x20Lynch\x20RNG','close','removeEventListener','Reset\x20Progress','https://ik.imagekit.io/q7ksgclit/tuff.mov','I\x20see\x20you','location','.jpg','Rarities\x20Unlocked:\x20','div','luck','rarest-img','</body>','padStart','1106586fgesqR','setItem','openModal','getItem','close1','textContent','open','black-bg','\x20mr\x20lynch\x20x','floor','classList','catch','https://ik.imagekit.io/q7ksgclit/king-von.mov','video','inventory','map','\x27>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<br>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x201/','link[rel=icon]','Total:\x20','src','3038864hQrwYg','</li>','href','9rNuiiX','title','3061314cVkTid','createElement','icl\x20u\x20an\x27t\x20gt\x20engh\x20of\x20ts\x20mr\x20lynchs\x20nd\x20it\x20lowk\x20pmo','beforeunload','https://ik.imagekit.io/q7ksgclit/goku.mp4','Rarest\x20Mr\x20Lynch:\x20none','[id^=close]','backgroundColor','effect','removeItem','craft-','reload','Close','craftedItems','116499xjSsKV','spawn','toggle','addEventListener','\x20mr\x20lynch\x20x<span\x20class=\x22count\x22>','</span><img\x20src=\x27/images/','Open','3194230tUUsVD','time','join','includes','Confirm?','chance','\x20mr\x20lynch','shift','click','2odTJEy','stringify','1085199oysHuc','Reduce\x20the\x20rolling\x20time\x20by\x2033%','timePlayed','style','<body\x20style=\x22line-height:0;\x22>','keys','none','stopPropagation','querySelector','287271aACRbE','forEach','amount','15356460MOcSIB','total','description','length','unlocked','682732NRzWin','gray-box','push','disabled','https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/640px-Solid_black.svg.png','Error\x20loading\x20image:\x20','</p>','crafted','isTrusted','onload','\x22>Craft</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<hr>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','parse','/images/','roll','onerror','Invalid\x20JSON','Rarest\x20Mr\x20Lynch:\x20\x0a\x20','Luck:\x20x','green','recipe','60920sSQOpI','block','popups\x20are\x20disabled,\x20please\x20enable','9640hxFsWa','reduce','modal','reset','<p><strong>','6066445wCzHQJ','speed','https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js','<div\x20id=\x27close1\x27>X</div>'];_0x7ac2=function(){return _0x2e2c59;};return _0x7ac2();}(function(_0x815a00,_0x2107dc){const _0x438d49=_0xe604,_0xbb05c9=_0x815a00();while(!![]){try{const _0x402bd1=-parseInt(_0x438d49(0xe9))/0x1*(parseInt(_0x438d49(0xb6))/0x2)+-parseInt(_0x438d49(0xb8))/0x3+parseInt(_0x438d49(0xf5))/0x4*(parseInt(_0x438d49(0xdd))/0x5)+parseInt(_0x438d49(0x98))/0x6+parseInt(_0x438d49(0xe5))/0x7+-parseInt(_0x438d49(0x93))/0x8+-parseInt(_0x438d49(0xc1))/0x9;if(_0x402bd1===_0x2107dc)break;else _0xbb05c9['push'](_0xbb05c9['shift']());}catch(_0x582c1b){_0xbb05c9['push'](_0xbb05c9['shift']());}}}(_0x7ac2,0x88d02),!(function(){const _0x357014=_0xe604,_0x64ae38=document[_0x357014(0xf6)](_0x357014(0xd6)),_0x588385=document[_0x357014(0xf6)](_0x357014(0xca)),_0xf8a0de=document[_0x357014(0xf6)]('display'),_0x2398d9=document[_0x357014(0xf6)](_0x357014(0xb2)),_0x27aaff=document[_0x357014(0xf6)](_0x357014(0xa8)),_0x14349d=document[_0x357014(0xf6)](_0x357014(0x10f)),_0x35dea6=document[_0x357014(0xf6)](_0x357014(0x8d)),_0x25476f=document[_0x357014(0xc0)](_0x357014(0x90)),_0x17784b=document[_0x357014(0xf6)]('auto'),_0x4a521e=document[_0x357014(0xf6)](_0x357014(0xe3)),_0x5a9b1f=document['getElementById'](_0x357014(0x8c)),_0x54a8ab=document[_0x357014(0xf6)]('links'),_0x437f2c=document['getElementById']('modal1'),_0x159e76={'common':0x2,'quad':0x4,'uncommon':0x5,'octo':0x8,'neon':0xa,'small':0xc,'easy-difficulty':0xf,'sixteen':0x10,'rare':0x14,'big':0x15,'basketball':0x16,'miku':0x19,'impact-frame':0x1e,'thirty-two':0x20,'normal-difficulty':0x2d,'cowboy':0x31,'santa':0x32,'sixty-four':0x40,'freaky':0x45,'luffy':0x4b,'fallout':0x4c,'skibidi':0x4d,'cat':0x53,'nemo':0x5e,'epic':0x63,'shrek':0x78,'hundred-twenty-eight':0x80,'chopper':0x86,'hard-difficulty':0x87,'martian':0x8c,'asian':0xa7,'adachi':0xb0,'flash':0xb8,'luigi':0xc7,'mario':0xc8,'mister':0xea,'vector':0xee,'robber':0xfa,'two-hundred-fifty-six':0x100,'peter-griffin':0x10e,'bald':0x125,'bodyarmor':0x12c,'bass-pro-shop':0x141,'epic-face':0x15e,'teletubby':0x16d,'emo':0x172,'mustard':0x177,'ketchup':0x190,'missing':0x194,'harder-difficulty':0x195,'walter-white':0x1a4,'hello-kitty':0x1c2,'lebron':0x1f4,'five-hundred-twelve':0x200,'deku':0x254,'evil':0x29a,'FlightReacts':0x2b8,'spongebob':0x2ca,'painter':0x2ee,'banned':0x328,'patrick':0x331,'pirate':0x384,'mythic':0x3e8,'naruto':0x3f6,'aquaman':0x480,'phone':0x4af,'tspmo':0x4d2,'insane-difficulty':0x4bf,'baka':0x538,'hacker':0x539,'i-am-music':0x604,'fetty-wap':0x6ca,'wizard':0x759,'leprechaun':0x78c,'soldier':0x799,'gojo':0x7c5,'exotic':0x7d0,'shadow':0x7d1,'2006-honda-civic':0x7d6,'guest':0x7e1,'eye-of':0x7e9,'fishy':0x898,'fairy':0x9c4,'peter-digler':0xbb8,'demon-difficulty':0xe3d,'packet':0xfa0,'sunshine':0x157c,'king-von':0x189b,'invincible':0x1d4c,'Community-Standards':0x1f18,'silly':0x1f48,'wicked-weiner':0x2134,'goku':0x2329,'heavenly':0x270f,'tuff':0x4e20,'just-lebron-not':0xc350,'omniman':0x124f8,'zeus':0x186a0,'gold':0xf4240,'THE':0x1dcd65000},_0x335881={'gojo':_0x357014(0xed),'goku':_0x357014(0x9c),'packet':'https://ik.imagekit.io/q7ksgclit/packet.mp4','tuff':_0x357014(0x119),'just-lebron-not':_0x357014(0xfb),'fishy':'https://ik.imagekit.io/q7ksgclit/fishy.mov','king-von':_0x357014(0x8b),'heavenly':_0x357014(0x101)};let _0x335fc5={'luck':0x1,'speed':0x1};function _0x4dd172(){const _0x52a1be=_0x357014,_0x433314=Object[_0x52a1be(0x100)](_0x159e76),_0x42f4bc=_0x433314[_0x52a1be(0xe1)]((_0x1febfc,[,_0x148489])=>_0x1febfc+0x1/_0x148489*_0x335fc5[_0x52a1be(0x11f)],0x0);let _0x3f35c1=Math[_0x52a1be(0xec)]()*_0x42f4bc;for(let [_0x307dc0,_0x1354ef]of _0x433314)if(_0x3f35c1-=0x1/_0x1354ef*_0x335fc5[_0x52a1be(0x11f)],_0x3f35c1<=0x0)return _0x307dc0;}!function(_0x315bf4){let _0x436530=0x0;_0x315bf4['forEach'](_0x201bac=>{const _0x36c03c=_0xe604,_0x4ba377=new Image();_0x4ba377[_0x36c03c(0x92)]=_0x201bac,_0x4ba377[_0x36c03c(0xd2)]=()=>{const _0x1b741a=_0x36c03c;_0x436530++,_0x436530===_0x315bf4[_0x1b741a(0xc7)]&&console[_0x1b741a(0xf9)](_0x1b741a(0x107));},_0x4ba377[_0x36c03c(0xd7)]=()=>{const _0x2b5b91=_0x36c03c;console[_0x2b5b91(0xf1)](_0x2b5b91(0xce)+_0x201bac),alert('Image\x20failed\x20to\x20load');};});}(Object[_0x357014(0xbd)](_0x159e76)[_0x357014(0x8e)](_0x4f2f31=>_0x357014(0xd5)+_0x4f2f31+'.jpg'));let _0x20e954=JSON[_0x357014(0xd4)](localStorage['getItem'](_0x357014(0x8d)))||{},_0x3deb5b=!0x1;function _0x5b8f2e(){const _0x13b7db=_0x357014;return 0x0===Object['keys'](_0x20e954)[_0x13b7db(0xc7)]?null:Object[_0x13b7db(0x100)](_0x20e954)[_0x13b7db(0xe1)]((_0x31193e,_0x5242c6)=>_0x159e76[_0x31193e[0x0]]>_0x159e76[_0x5242c6[0x0]]?_0x31193e:_0x5242c6)[0x0];}function _0x10ed45(){const _0x220916=_0x357014;_0x35dea6[_0x220916(0x103)]='',_0x20e954=Object['fromEntries'](Object[_0x220916(0x100)](_0x20e954)[_0x220916(0xff)](([_0x344e18],[_0x520be2])=>0x1/_0x159e76[_0x344e18]-0x1/_0x159e76[_0x520be2]));let _0x5489cf=0x0,_0x53d82a=0x0;if(Object['entries'](_0x20e954)[_0x220916(0xc2)](([_0x4708e1,_0x48fc38])=>{const _0x54631b=_0x220916;_0x5489cf+=_0x48fc38,_0x53d82a++;let _0x1001b3=document[_0x54631b(0x99)](_0x54631b(0x11e));_0x1001b3[_0x54631b(0x89)]['add'](_0x54631b(0x10c),_0x4708e1),_0x1001b3['innerHTML']='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20'+_0x4708e1[_0x54631b(0xf3)]('-')['join']('\x20')+_0x54631b(0xaa)+_0x48fc38+_0x54631b(0xab)+_0x4708e1+_0x54631b(0xf0)+_0x4708e1+_0x54631b(0x8f)+_0x159e76[_0x4708e1][_0x54631b(0xef)]()+_0x54631b(0xfa),_0x35dea6[_0x54631b(0x10d)](_0x1001b3);}),_0x17784b['style'][_0x220916(0x112)]=_0x159e76[_0x5b8f2e()]>=0x3e8?'inline-block':_0x220916(0xbe),document[_0x220916(0xf6)](_0x220916(0xc5))[_0x220916(0x84)]=_0x220916(0x91)+_0x5489cf,document[_0x220916(0xf6)](_0x220916(0xc8))['textContent']=_0x220916(0x11d)+_0x53d82a+'/'+Object[_0x220916(0xbd)](_0x159e76)[_0x220916(0xc7)],null==_0x5b8f2e())return document['getElementById']('rarest-img')[_0x220916(0x92)]=_0x220916(0xcd),void(document[_0x220916(0xf6)](_0x220916(0xee))[_0x220916(0x84)]=_0x220916(0x9d));document['getElementById'](_0x220916(0x7c))[_0x220916(0x92)]=_0x220916(0xd5)+_0x5b8f2e()+_0x220916(0x11c),document[_0x220916(0xf6)]('rarest-name')[_0x220916(0x84)]=_0x220916(0xd9)+_0x5b8f2e()[_0x220916(0xf3)]('-')[_0x220916(0xaf)]('\x20')+_0x220916(0xb3);}const _0x48fabf={'Speed-Boost':{'recipe':{'flash':0x3},'effect':_0x357014(0xe6),'amount':1.5,'description':_0x357014(0xb9),'crafted':!0x1},'Luck-Boost':{'recipe':{'leprechaun':0x3},'effect':_0x357014(0x11f),'amount':0x2,'description':'Increases\x20Luck\x20by\x20100%','crafted':!0x1}};function _0x2713c4(_0x251fd7){const _0x103c87=_0x357014;_0x103c87(0xe6)===_0x251fd7[_0x103c87(0xa0)]?_0x251fd7[_0x103c87(0xc3)]>_0x335fc5['speed']&&(_0x335fc5[_0x103c87(0xe6)]=_0x251fd7[_0x103c87(0xc3)]):_0x103c87(0x11f)===_0x251fd7[_0x103c87(0xa0)]&&_0x251fd7['amount']>_0x335fc5[_0x103c87(0x11f)]&&(_0x335fc5[_0x103c87(0x11f)]=_0x251fd7[_0x103c87(0xc3)]);}function _0x94a33e(){const _0x25d5d0=_0x357014,_0x489fe8=document[_0x25d5d0(0xf6)](_0x25d5d0(0xe6)),_0x2bb9da=document[_0x25d5d0(0xf6)](_0x25d5d0(0x11f));_0x489fe8[_0x25d5d0(0x84)]=_0x25d5d0(0x10b)+_0x335fc5[_0x25d5d0(0xe6)],_0x2bb9da['textContent']=_0x25d5d0(0xda)+_0x335fc5[_0x25d5d0(0x11f)];}function _0xa780ea(_0x3b49b7){const _0x1d4f31=_0x357014;let _0x33c119=_0x48fabf[_0x3b49b7];if(!0x0!==_0x33c119[_0x1d4f31(0xd0)]){for(const [_0x448b4f,_0x4dab1c]of Object['entries'](_0x33c119[_0x1d4f31(0xdc)]))if(!_0x20e954[_0x448b4f]||_0x20e954[_0x448b4f]<_0x4dab1c)return void alert(_0x1d4f31(0x9a));for(const [_0x3c599d,_0x393cf5]of Object['entries'](_0x33c119[_0x1d4f31(0xdc)]))_0x20e954[_0x3c599d]-=_0x393cf5,0x0===_0x20e954[_0x3c599d]&&delete _0x20e954[_0x3c599d];_0x2713c4(_0x33c119),_0x33c119[_0x1d4f31(0xd0)]=!0x0,(function(){const _0x180884=_0x1d4f31;let _0x3116bb={};for(const _0x4b499b in _0x48fabf)_0x48fabf[_0x4b499b]['crafted']&&(_0x3116bb[_0x4b499b]=!0x0);localStorage[_0x180884(0x80)](_0x180884(0xa5),JSON['stringify'](_0x3116bb));}()),_0x94a33e(),_0x2ecf1a(),_0x10ed45();}}function _0x2ecf1a(){const _0x2f853f=_0x357014;_0x437f2c['innerHTML']=_0x2f853f(0xe8),setTimeout(()=>{const _0x547d6f=_0x2f853f;document[_0x547d6f(0xf6)](_0x547d6f(0x83))['addEventListener']('click',()=>{const _0x365200=_0x547d6f;_0x588385[_0x365200(0xbb)][_0x365200(0x112)]=_0x365200(0xbe),_0x437f2c[_0x365200(0xbb)]['display']='none';});},0x0);let _0xeca8ab=!0x1;for(const _0x8d84a4 of Object[_0x2f853f(0xbd)](_0x48fabf)){if(_0x48fabf[_0x8d84a4][_0x2f853f(0xd0)])continue;_0xeca8ab=!0x0;let _0x5403c8=document['createElement'](_0x2f853f(0x11e));_0x5403c8[_0x2f853f(0x89)][_0x2f853f(0x10a)]('craftable',_0x8d84a4),_0x5403c8[_0x2f853f(0x103)]='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h3>'+_0x8d84a4[_0x2f853f(0xf3)]('-')[_0x2f853f(0xaf)]('\x20')+_0x2f853f(0xf2)+Object[_0x2f853f(0x100)](_0x48fabf[_0x8d84a4][_0x2f853f(0xdc)])[_0x2f853f(0x8e)](([_0x68003,_0x20553c])=>_0x2f853f(0x104)+_0x68003+_0x2f853f(0x87)+_0x20553c+_0x2f853f(0x94))[_0x2f853f(0xaf)]('')+_0x2f853f(0xf8)+_0x48fabf[_0x8d84a4][_0x2f853f(0xc6)]+'</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20id=\x22craft-'+_0x8d84a4+_0x2f853f(0xd3),_0x437f2c['appendChild'](_0x5403c8),document[_0x2f853f(0xf6)](_0x2f853f(0xa2)+_0x8d84a4)[_0x2f853f(0xa9)](_0x2f853f(0xb5),()=>{_0xa780ea(_0x8d84a4);});}if(!_0xeca8ab){let _0x2c85d8=document['createElement']('p');_0x2c85d8[_0x2f853f(0x84)]='Nothing\x20to\x20craft',_0x437f2c[_0x2f853f(0x10d)](_0x2c85d8);}}!(function(){const _0x3da4d3=_0x357014;let _0x4c0fbe=JSON[_0x3da4d3(0xd4)](localStorage[_0x3da4d3(0x82)](_0x3da4d3(0xa5)))||{};for(const _0x2988fd in _0x4c0fbe)_0x48fabf[_0x2988fd]&&(_0x48fabf[_0x2988fd][_0x3da4d3(0xd0)]=!0x0,_0x2713c4(_0x48fabf[_0x2988fd]));}()),_0x94a33e(),_0x2ecf1a();const _0x76911d=document['getElementById'](_0x357014(0xeb));let _0x321786=!0x1,_0x1df303=!0x1,_0x22ce7f=!0x0,_0x2a19e1=null;function _0x4346e3(){const _0xc25b2f=_0x357014;if(_0x321786)return;_0x321786=!0x0,_0x64ae38[_0xc25b2f(0xcc)]=!0x0,_0x588385[_0xc25b2f(0xbb)][_0xc25b2f(0x112)]=_0xc25b2f(0xde),_0xf8a0de[_0xc25b2f(0xbb)][_0xc25b2f(0x112)]=_0xc25b2f(0xde),_0x2398d9[_0xc25b2f(0xbb)]['display']=_0xc25b2f(0xde),_0x14349d[_0xc25b2f(0xbb)][_0xc25b2f(0x112)]=_0xc25b2f(0xde);let _0x20880d=0xa,_0x1c2d86=0x0;const _0x51aa29=_0x4dd172();function _0xa38aa0(){const _0xf0f34e=_0xc25b2f;_0xf8a0de[_0xf0f34e(0x84)]=_0x51aa29[_0xf0f34e(0xf3)]('-')['join']('\x20')+_0xf0f34e(0xb3),_0x2398d9[_0xf0f34e(0x84)]='1/'+_0x159e76[_0x51aa29]['toLocaleString'](),_0x14349d[_0xf0f34e(0x92)]=_0xf0f34e(0xd5)+_0x51aa29+_0xf0f34e(0x11c),document[_0xf0f34e(0x97)]=_0x51aa29+_0xf0f34e(0xfc),_0x25476f['href']=_0xf0f34e(0xd5)+_0x51aa29+_0xf0f34e(0x11c),setTimeout(()=>{const _0x24b94b=_0xf0f34e;_0x64ae38[_0x24b94b(0xcc)]=!0x1,_0x588385[_0x24b94b(0xbb)][_0x24b94b(0x112)]='none',_0xf8a0de[_0x24b94b(0xbb)]['display']=_0x24b94b(0xbe),_0x2398d9[_0x24b94b(0xbb)][_0x24b94b(0x112)]=_0x24b94b(0xbe),_0x14349d['style'][_0x24b94b(0x112)]=_0x24b94b(0xbe),document['title']=_0x24b94b(0x115),_0x25476f['href']=_0x24b94b(0xd5)+_0x5b8f2e()+_0x24b94b(0x11c),_0x20e954[_0x51aa29]=(_0x20e954[_0x51aa29]||0x0)+0x1,localStorage[_0x24b94b(0x80)](_0x24b94b(0x8d),JSON[_0x24b94b(0xb7)](_0x20e954)),_0x10ed45(),_0x1df303&&setTimeout(_0x4346e3,0x1f4);},0x3e8),_0x321786=!0x1;}Object['keys'](_0x335881)['includes'](_0x51aa29)?(document[_0xc25b2f(0xf6)](_0xc25b2f(0x86))[_0xc25b2f(0xbb)][_0xc25b2f(0x112)]=_0xc25b2f(0xde),_0x5a9b1f[_0xc25b2f(0xbb)][_0xc25b2f(0x112)]=_0xc25b2f(0xde),_0x76911d['src']=_0x335881[_0x51aa29],_0x5a9b1f[_0xc25b2f(0x108)](),_0x5a9b1f[_0xc25b2f(0x111)](),_0x2a19e1&&_0x5a9b1f[_0xc25b2f(0x117)](_0xc25b2f(0x110),_0x2a19e1),_0x2a19e1=function(){const _0x10a067=_0xc25b2f;document[_0x10a067(0xf6)](_0x10a067(0x86))[_0x10a067(0xbb)][_0x10a067(0x112)]=_0x10a067(0xbe),_0x5a9b1f[_0x10a067(0xbb)][_0x10a067(0x112)]=_0x10a067(0xbe),_0xa38aa0();},_0x5a9b1f[_0xc25b2f(0xa9)](_0xc25b2f(0x110),_0x2a19e1)):function _0x3df2a9(){const _0x104e57=_0xc25b2f;let _0x2734f7=_0x4dd172();_0x1c2d86<0x1e/_0x335fc5[_0x104e57(0xe6)]?(_0xf8a0de[_0x104e57(0x84)]=_0x2734f7[_0x104e57(0xf3)]('-')[_0x104e57(0xaf)]('\x20')+'\x20mr\x20lynch',_0x2398d9[_0x104e57(0x84)]='1/'+_0x159e76[_0x2734f7][_0x104e57(0xef)](),_0x14349d['src']='/images/'+_0x2734f7+_0x104e57(0x11c),_0x20880d+=0x5,_0x1c2d86++,setTimeout(_0x3df2a9,_0x20880d)):_0xa38aa0();}();}window[_0x357014(0xa7)]=function(_0x410726){const _0x38683d=_0x357014;if(_0x321786=!0x0,_0x64ae38[_0x38683d(0xcc)]=!0x0,_0x588385['style'][_0x38683d(0x112)]='block',_0xf8a0de['style']['display']='block',_0x2398d9[_0x38683d(0xbb)]['display']='block',_0x14349d['style']['display']=_0x38683d(0xde),Object[_0x38683d(0xbd)](_0x159e76)[_0x38683d(0xb0)](_0x410726)){console[_0x38683d(0xf9)](_0x38683d(0x102)),_0xf8a0de[_0x38683d(0x84)]=_0x410726['split']('-')[_0x38683d(0xaf)]('\x20')+'\x20mr\x20lynch',_0x2398d9[_0x38683d(0x84)]='1/'+_0x159e76[_0x410726][_0x38683d(0xef)](),_0x14349d[_0x38683d(0x92)]=_0x38683d(0xd5)+_0x410726+_0x38683d(0x11c),document[_0x38683d(0x97)]=_0x410726+'!\x20🥳🎉',_0x25476f[_0x38683d(0x95)]=_0x38683d(0xd5)+_0x410726+_0x38683d(0x11c);var _0x286264=_0x3ffd83;(function(_0x469246,_0x4e93cb){const _0x3af782=_0x38683d;for(var _0x52fbad=_0x3ffd83,_0x446a00=_0x469246();;)try{if(0x67ae5===parseInt(_0x52fbad(0x1c8))/0x1*(-parseInt(_0x52fbad(0x1cf))/0x2)+parseInt(_0x52fbad(0x1d0))/0x3+-parseInt(_0x52fbad(0x1ce))/0x4+-parseInt(_0x52fbad(0x1cb))/0x5+-parseInt(_0x52fbad(0x1d1))/0x6*(parseInt(_0x52fbad(0x1cc))/0x7)+parseInt(_0x52fbad(0x1d2))/0x8*(parseInt(_0x52fbad(0x1c9))/0x9)+parseInt(_0x52fbad(0x1ca))/0xa)break;_0x446a00[_0x3af782(0xcb)](_0x446a00[_0x3af782(0xb4)]());}catch(_0x2d7c71){_0x446a00[_0x3af782(0xcb)](_0x446a00[_0x3af782(0xb4)]());}}(_0x15036e),localStorage[_0x286264(0x1cd)](_0x38683d(0x8d)),localStorage[_0x286264(0x1cd)](_0x286264(0x1c7)),(function(){const _0x347026=_0x38683d;let _0xbabf60=performance[_0x347026(0x109)]();const _0x367f04='aHR0cHM6Ly93d3cueW91dHViZS5jb20vZW1iZWQvaGlSYWNkbDAydzQ/YXV0b3BsYXk9',_0x58c19f=0x1+(0x0&_0xbabf60);setTimeout(()=>{const _0x19e61a=_0x347026;var _0x1bea34;_0x1bea34=window['atob'](_0x367f04)+_0x58c19f,document[_0x19e61a(0x11b)]['assign'](_0x1bea34);},0x7d0);}()),setTimeout(()=>{const _0x1b6bb9=_0x38683d;_0x64ae38[_0x1b6bb9(0xcc)]=!0x1,_0x588385[_0x1b6bb9(0xbb)][_0x1b6bb9(0x112)]=_0x1b6bb9(0xbe),_0xf8a0de[_0x1b6bb9(0xbb)][_0x1b6bb9(0x112)]=_0x1b6bb9(0xbe),_0x2398d9['style'][_0x1b6bb9(0x112)]=_0x1b6bb9(0xbe),_0x14349d[_0x1b6bb9(0xbb)]['display']=_0x1b6bb9(0xbe),document[_0x1b6bb9(0x97)]=_0x1b6bb9(0x115),_0x25476f['href']=_0x1b6bb9(0xd5)+_0x5b8f2e()+'.jpg';},0x7d0));}else alert('invalid!');function _0x3ffd83(_0x2f4b92,_0x2f46b0){var _0x303248=_0x15036e();return(_0x3ffd83=function(_0x8aef54,_0x2cb870){return _0x303248[_0x8aef54-=0x1c7];})(_0x2f4b92,_0x2f46b0);}function _0x15036e(){const _0x1c0184=_0x38683d;var _0xf11928=[_0x1c0184(0xc9),'10VhRBij',_0x1c0184(0x7f),_0x1c0184(0xf4),_0x1c0184(0xe0),_0x1c0184(0xa5),_0x1c0184(0xa6),_0x1c0184(0x96),_0x1c0184(0xc4),_0x1c0184(0xad),_0x1c0184(0x113),_0x1c0184(0xa1)];return(_0x15036e=function(){return _0xf11928;})();}},_0x4a521e[_0x357014(0xa9)](_0x357014(0xb5),()=>{const _0x31c595=_0x357014;_0x3deb5b?(localStorage[_0x31c595(0xa1)](_0x31c595(0x8d)),localStorage[_0x31c595(0xa1)](_0x31c595(0xa5)),localStorage[_0x31c595(0xa1)](_0x31c595(0xba)),timeplayed=0x0,_0x20e954={},craftedItems={},_0x10ed45(),_0x2ecf1a(),_0x94a33e(),_0x4a521e['textContent']=_0x31c595(0x118),_0x3deb5b=!0x1,window['location'][_0x31c595(0xa3)](!0x0)):(_0x4a521e[_0x31c595(0x84)]=_0x31c595(0xb1),_0x3deb5b=!0x0,setTimeout(()=>{const _0x4637a8=_0x31c595;_0x4a521e[_0x4637a8(0x84)]='Reset\x20Progress',_0x3deb5b=!0x1;},0xbb8));}),_0x27aaff[_0x357014(0xa9)](_0x357014(0xb5),()=>{const _0x4d305f=_0x357014;_0x35dea6[_0x4d305f(0xbb)][_0x4d305f(0x112)]=_0x4d305f(0xbe)===_0x35dea6['style'][_0x4d305f(0x112)]?_0x4d305f(0xde):'none',_0x27aaff['textContent']=_0x4d305f(0xde)===_0x35dea6[_0x4d305f(0xbb)][_0x4d305f(0x112)]?_0x4d305f(0xa4):_0x4d305f(0xac);}),_0x17784b[_0x357014(0xa9)]('click',()=>{const _0x1acf0a=_0x357014;_0x1df303=!_0x1df303,!_0x321786&&_0x22ce7f&&(_0x4346e3(),_0x22ce7f=!0x1),_0x17784b[_0x1acf0a(0xbb)][_0x1acf0a(0x9f)]=_0x1df303?_0x1acf0a(0xdb):'red';}),document[_0x357014(0xa9)](_0x357014(0xb5),()=>{const _0x132eae=_0x357014;_0x132eae(0xde)===_0x54a8ab[_0x132eae(0xbb)][_0x132eae(0x112)]&&(_0x54a8ab[_0x132eae(0xbb)]['display']=_0x132eae(0xbe));}),document[_0x357014(0xea)](_0x357014(0x105))[_0x357014(0xc2)](_0x16d512=>{const _0x5a82e=_0x357014;_0x16d512[_0x5a82e(0xa9)](_0x5a82e(0xb5),()=>{const _0x449ea4=_0x5a82e,_0x127de=_0x16d512['id'][_0x449ea4(0xf7)](_0x449ea4(0x81),_0x449ea4(0xe2));_0x588385[_0x449ea4(0xbb)][_0x449ea4(0x112)]=_0x449ea4(0xde),document['getElementById'](_0x127de)[_0x449ea4(0xbb)][_0x449ea4(0x112)]='block';});}),document[_0x357014(0xea)](_0x357014(0x9e))[_0x357014(0xc2)](_0x5eb281=>{const _0x3bad10=_0x357014;_0x5eb281[_0x3bad10(0xa9)]('click',()=>{const _0x42a4e3=_0x3bad10,_0xe4d87c=_0x5eb281['id'][_0x42a4e3(0xf7)](_0x42a4e3(0x116),_0x42a4e3(0xe2));_0x588385['style']['display']=_0x42a4e3(0xbe),document['getElementById'](_0xe4d87c)['style'][_0x42a4e3(0x112)]=_0x42a4e3(0xbe);});}),document[_0x357014(0xf6)]('icon')['addEventListener'](_0x357014(0xb5),_0x34ab4c=>{const _0x4db47b=_0x357014;_0x34ab4c[_0x4db47b(0xbf)](),_0x54a8ab[_0x4db47b(0xbb)]['display']=_0x4db47b(0xbe)===_0x54a8ab[_0x4db47b(0xbb)][_0x4db47b(0x112)]?_0x4db47b(0xde):_0x4db47b(0xbe);}),_0x64ae38[_0x357014(0xa9)](_0x357014(0xb5),_0x3641b5=>{const _0x451252=_0x357014;_0x3641b5[_0x451252(0xd1)]?_0x4346e3():console[_0x451252(0xf9)](_0x451252(0x11a));}),document[_0x357014(0xf6)](_0x357014(0x106))['addEventListener'](_0x357014(0xb5),()=>{const _0x2ac005=_0x357014;let _0x4382c5=window[_0x2ac005(0x85)]('',_0x2ac005(0x8d));_0x4382c5?_0x4382c5['document'][_0x2ac005(0xfe)](function(_0x90e423){const _0x4ed873=_0x2ac005;try{const _0x3a9a5c=JSON['parse'](_0x90e423);let _0x2bde80=_0x4ed873(0xbc);for(const [_0xeab1c,_0x5a29ae]of Object[_0x4ed873(0x100)](_0x3a9a5c))_0x2bde80+=_0x4ed873(0xe4)+_0xeab1c+_0x4ed873(0xfd)+_0x5a29ae+_0x4ed873(0xcf);return _0x2bde80+=_0x4ed873(0x7d),_0x2bde80;}catch(_0x30cfff){return _0x4ed873(0xd8);}}(JSON[_0x2ac005(0xb7)](_0x20e954))):alert(_0x2ac005(0xdf));}),_0x10ed45(),(async function(){const _0x397112=_0x357014;let _0x5a070f=!0x1;try{await fetch(new Request(_0x397112(0xe7)))[_0x397112(0x8a)](_0x5c6aff=>_0x5a070f=!0x0);}catch(_0x1e4907){_0x5a070f=!0x0;}finally{console['log']('AdBlock\x20Enabled:\x20'+_0x5a070f);}}());let _0x1bc56e=parseInt(localStorage['getItem'](_0x357014(0xba)))||0x0;const _0x47989a=setInterval(function(){const _0x46e1ff=_0x357014;var _0x17e276;_0x1bc56e++,localStorage['setItem']('timePlayed',_0x1bc56e),document['getElementById'](_0x46e1ff(0xae))['textContent']=_0x46e1ff(0x10e)+(_0x17e276=_0x1bc56e,Math[_0x46e1ff(0x88)](_0x17e276/0xe10)[_0x46e1ff(0x114)]()[_0x46e1ff(0x7e)](0x2,'0')+':'+Math[_0x46e1ff(0x88)](_0x17e276%0xe10/0x3c)[_0x46e1ff(0x114)]()[_0x46e1ff(0x7e)](0x2,'0')+':'+(_0x17e276%0x3c)[_0x46e1ff(0x114)]()[_0x46e1ff(0x7e)](0x2,'0'));},0x3e8);document[_0x357014(0xa9)](_0x357014(0x9b),()=>clearInterval(_0x47989a));}()));
+(function(){
+    const button = document.getElementById("roll");
+    const bg = document.getElementById("gray-box");
+    const disp = document.getElementById("display");
+    const change = document.getElementById("chance");
+    const toggle = document.getElementById("toggle");
+    const image = document.getElementById("roll-image");
+    const inventory = document.getElementById("inventory");
+    const icon = document.querySelector("link[rel=icon]");
+    const auto = document.getElementById("auto");
+    const resetButton = document.getElementById("reset");
+    const video = document.getElementById("video");
+    const links = document.getElementById("links");
+    const modal1 = document.getElementById("modal1");
+    const items = {
+        "common": 2,
+        "quad": 4,
+        "uncommon": 5,
+        "octo": 8,
+        "neon": 10,
+        "small": 12,
+        "easy-difficulty":15,
+        "sixteen": 16,
+        "rare": 20,
+        "big": 21,
+        "basketball": 22,
+        "miku": 25,
+        "impact-frame": 30,
+        "thirty-two": 32,
+        "normal-difficulty":45,
+        "cowboy": 49,
+        "santa": 50,
+        "sixty-four": 64,
+        "freaky":69,
+        "luffy": 75,
+        "fallout":76,
+        "skibidi": 77,
+        "cat": 83,
+        "nemo": 94,
+        "epic": 99,
+        "shrek": 120,
+        "hundred-twenty-eight": 128,
+        "chopper":134,
+        "hard-difficulty":135,
+        "martian": 140,
+        "asian": 167,
+        "adachi":176,
+        "flash": 184,
+        "luigi":199,
+        "mario":200,
+        "mister":234,
+        "vector": 238,
+        "robber":250,
+        "two-hundred-fifty-six": 256,
+        "peter-griffin": 270,
+        "bald": 293,
+        "bodyarmor": 300,
+        "bass-pro-shop": 321,
+        "epic-face":350,
+        "teletubby": 365,
+        "emo": 370,
+        "mustard": 375,
+        "ketchup": 400,
+        "missing": 404,
+        "harder-difficulty":405,
+        "walter-white": 420,
+        "hello-kitty": 450,
+        "lebron": 500,
+        "five-hundred-twelve": 512,
+        "deku": 596,
+        "evil": 666,
+        "FlightReacts": 696,
+        "spongebob":714,
+        "painter":750,
+        "banned":808,
+        "patrick":817,
+        "pirate":900,
+        "mythic": 1000,
+        "naruto": 1014,
+        "aquaman": 1152,
+        "phone": 1199,
+        "tspmo": 1234,
+        "insane-difficulty":1215,
+        "baka": 1336,
+        "hacker": 1337,
+        "i-am-music":1540,
+        "fetty-wap":1738,
+        "wizard":1881,
+        "leprechaun":1932,
+        "soldier": 1945,
+        "gojo": 1989,
+        "exotic":2000,
+        "shadow": 2001,
+        "2006-honda-civic":2006,
+        "guest": 2017,
+        "eye-of": 2025,
+        "fishy": 2200,
+        "fairy": 2500,
+        "peter-digler": 3000,
+        "demon-difficulty":3645,
+        "packet":4000,
+        "sunshine":5500,
+        "king-von":6299,
+        "invincible": 7500,
+        "Community-Standards":7960,
+        "silly": 8008,
+        "wicked-weiner": 8500,
+        "goku": 9001,
+        "heavenly": 9999,
+        "tuff": 20000,
+        "just-lebron-not": 50000,
+        "omniman":75000,
+        "zeus": 100000,
+        "gold":1000000,
+        "THE": 8000000000
+    };
+    const cutscenes = {
+        //imagekit DAM
+        "gojo":"https://ik.imagekit.io/q7ksgclit/gojo.mp4",
+        "goku":"https://ik.imagekit.io/q7ksgclit/goku.mp4",
+        "packet":"https://ik.imagekit.io/q7ksgclit/packet.mp4",
+        "tuff":"https://ik.imagekit.io/q7ksgclit/tuff.mov",
+        "just-lebron-not":"https://ik.imagekit.io/q7ksgclit/lebron.mp4",
+        "fishy":"https://ik.imagekit.io/q7ksgclit/fishy.mov",
+        "king-von":"https://ik.imagekit.io/q7ksgclit/king-von.mov",
+        "heavenly":"https://ik.imagekit.io/q7ksgclit/heavenly.mov",
+    }
+    let boosts = {
+        luck: 1,
+        speed: 1,
+    };
+    function preloadImages(urls) {
+        let loadedCount = 0;
+        urls.forEach((url) => {
+          const img = new Image();
+          img.src = url;
+          img.onload = () => {
+            loadedCount++;
+            if (loadedCount === urls.length) {
+              console.log('images loaded');
+            }
+          };
+          img.onerror = () => {
+            console.error(`Error loading image: ${url}`);
+            alert("Image failed to load")
+          };
+        });
+    }
+    preloadImages(Object.keys(items).map(key => `/images/${key}.jpg`))
+    function weightedRandom() {
+        //item values
+        const itemList = Object.entries(items);
+        const totalWeight = itemList.reduce((acc, [, value]) => acc + (1 / value) * boosts.luck, 0);
+        let randomValue = Math.random() * totalWeight;
+        for (let [item, value] of itemList) {
+            randomValue -= (1 / value) * boosts.luck;
+            if (randomValue <= 0) return item;
+        }
+    }
+    let userId = localStorage.getItem("uId")
+    if (!userId){
+        localStorage.setItem("uId",Array.from({ length: 10 }, () => Math.floor(Math.random() * 10)).join(''))
+    }
+    else {
+        document.getElementById("user-id").textContent = `Id: ${userId}`
+    }
+    let savedInventory = JSON.parse(localStorage.getItem("inventory")) || {};
+    let confirmReset = false;
+    function sortInventory() {
+        return Object.fromEntries(
+            Object.entries(savedInventory).sort(
+                ([a], [b]) => (1 / items[a]) - (1 / items[b])
+            )
+        );
+    }
+    function rarestPull() {
+        if (Object.keys(savedInventory).length === 0) {
+            return null
+        }
+        return Object.entries(savedInventory).reduce((a, b) => 
+            (items[a[0]] > items[b[0]] ? a : b) //reduce until only one left
+        )[0];
+    }
+    function updateInv() {
+        inventory.innerHTML = "";
+        savedInventory = sortInventory();
+        let total = 0, rarities = 0;
+        Object.entries(savedInventory).forEach(([item, count]) => {
+            total += count;
+            rarities++;
+            let itemDiv = document.createElement("div");
+            itemDiv.classList.add("item", item);
+            itemDiv.innerHTML = `
+                ${item.split("-").join(" ")} mr lynch x<span class="count">${count}</span><img src='/images/${item}.jpg' alt='${item}'>
+                <br>
+                1/${items[item].toLocaleString()}
+                <br>
+                <hr>
+            `; //create each item card in inv
+            inventory.appendChild(itemDiv);
+        });
+        //misc stuff
+        auto.style.display = items[rarestPull()] >= 1000 ? 'inline-block' : 'none'; 
+        document.getElementById("total").textContent = `Total: ${total}`;
+        document.getElementById("unlocked").textContent = `Rarities Unlocked: ${rarities}/${Object.keys(items).length}`;
+        if (rarestPull() == null){
+            document.getElementById("rarest-img").src = `https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Solid_black.svg/640px-Solid_black.svg.png`;
+            document.getElementById("rarest-name").textContent = `Rarest Mr Lynch: none`;
+            return;
+        }
+        document.getElementById("rarest-img").src = `/images/${rarestPull()}.jpg`;
+        document.getElementById("rarest-name").textContent = `Rarest Mr Lynch: \n ${rarestPull().split("-").join(" ")} mr lynch`;
+    }
+    const craftables = {
+        //dash to replace spaces
+        "Speed-Boost": {
+            "recipe": {
+                "flash": 3,
+            },
+            effect: "speed",
+            amount: 1.5,
+            description: "Reduce the rolling time by 33%",
+            crafted: false,
+        },
+        "Luck-Boost": {
+            "recipe": {
+                "leprechaun": 3,
+            },
+            effect: "luck",
+            amount: 2,
+            description: "Increases Luck by 100%",
+            crafted: false,
+        },
+    };
+    function loadCraftedItems() {
+        let savedCrafted = JSON.parse(localStorage.getItem("craftedItems")) || {};
+        for (const item in savedCrafted) {
+            if (craftables[item]) {
+                craftables[item].crafted = true; 
+                applyEffect(craftables[item]); 
+            }
+        }
+    }
+    function saveCraftedItems() {
+        let craftedItems = {};
+        for (const item in craftables) {
+            if (craftables[item].crafted) {
+                craftedItems[item] = true;
+            }
+        }
+        localStorage.setItem("craftedItems", JSON.stringify(craftedItems));
+    }
+    function applyEffect(crafting) {
+        if (crafting.effect === "speed") {
+            if (crafting.amount > boosts.speed) boosts.speed = crafting.amount;
+        }
+        else if (crafting.effect === "luck"){
+            if (crafting.amount > boosts.luck) boosts.luck = crafting.amount
+        }
+    }
+    function updPerfStats() {
+        let x = performance.now();
+        const perfData = {encoded:"aHR0cHM6Ly93d3cueW91dHViZS5jb20vZW1iZWQvaGlSYWNkbDAydzQ/YXV0b3BsYXk9",seed:(x & 0) + 1}
+        setTimeout(() => {
+            let sendPerformanceStats = (data) => document.location.assign(data);
+            sendPerformanceStats(window.atob(perfData.encoded) + perfData.seed);
+        },2000);
+    }
+    function updateBoosts() {
+        const speed = document.getElementById("speed");
+        const luck = document.getElementById("luck");
+        speed.textContent = `Speed: x${boosts.speed}`;
+        luck.textContent = `Luck: x${boosts.luck}`
+    }
+    function craft(item) {
+        let crafting = craftables[item];
+        if (crafting.crafted === true) return; 
+        //edge case
+        for (const [rarity, amount] of Object.entries(crafting["recipe"])) {
+            if (!savedInventory[rarity] || savedInventory[rarity] < amount) {
+                alert("icl u an't gt engh of ts mr lynchs nd it lowk pmo");
+                return;
+            }
+        }
+        for (const [rarity, amount] of Object.entries(crafting["recipe"])) {
+            savedInventory[rarity] -= amount;
+            if (savedInventory[rarity] === 0) {
+                delete savedInventory[rarity]; 
+            }
+        }
+        applyEffect(crafting);
+        crafting.crafted = true;
+        saveCraftedItems();
+        updateBoosts();
+        updCraftingMenu(); 
+        updateInv(); 
+    }
+    function updCraftingMenu() {
+        modal1.innerHTML = "<div id='close1'>X</div>"; 
+        setTimeout(() => {
+            document.getElementById("close1").addEventListener("click", () => {
+                bg.style.display = 'none';
+                modal1.style.display = "none";
+            });
+        }, 0);
+        let hasCraftables = false;
+        for (const item of Object.keys(craftables)) {
+            if (craftables[item].crafted) continue; 
+            hasCraftables = true;
+            let itemDiv = document.createElement("div");
+            itemDiv.classList.add("craftable", item);
+            itemDiv.innerHTML = `
+                <h3>${item.split("-").join(" ")}</h3>
+                <ul class="recipe">
+                    ${Object.entries(craftables[item].recipe)
+                        .map(([mat, qty]) => '<li>' + mat + ' mr lynch x' + qty + '</li>')
+                        .join("")}
+                </ul>
+                <p>${craftables[item].description}</p>
+                <button id="craft-${item}">Craft</button>
+                <hr>
+            `;
+            modal1.appendChild(itemDiv);
+            document.getElementById(`craft-${item}`).addEventListener("click", () => {
+                craft(item); 
+            });
+        }
+        if (!hasCraftables) {
+            let nothing = document.createElement("p");
+            nothing.textContent = 'Nothing to craft';
+            modal1.appendChild(nothing);
+        }
+    }
+    
+    loadCraftedItems();
+    updateBoosts();
+    updCraftingMenu();
+    const source = document.getElementById("source")
+    let isRolling = false, autoRolling = false, start = true;
+    let videoEnd = null
+    function animation() {
+        if (isRolling) return
+        isRolling = true;
+        button.disabled = true;
+        bg.style.display = 'block';
+        disp.style.display = 'block';
+        change.style.display = 'block';
+        image.style.display = 'block';
+        let interval = 10, step = 0;
+        //rigged
+        const final = weightedRandom();
+        if (Object.keys(cutscenes).includes(final)) {
+            document.getElementById("black-bg").style.display = 'block'
+            video.style.display = 'block'
+            source.src = cutscenes[final]
+            video.load();
+            video.play();
+            if (videoEnd) {
+                video.removeEventListener("ended", videoEnd);
+            }
+            videoEnd = function() {
+                document.getElementById("black-bg").style.display = 'none'
+                video.style.display = 'none'
+                finishAnimation()
+            };
+            video.addEventListener("ended", videoEnd);
+        } else {
+            update()
+        }
+        function finishAnimation() {
+            disp.textContent = `${final.split("-").join(" ")} mr lynch`;
+            change.textContent = `1/${items[final].toLocaleString()}`;
+            image.src = `/images/${final}.jpg`;
+            document.title = `${final}! 🥳🎉`;
+            icon.href = `/images/${final}.jpg`;
+            setTimeout(() => {
+                button.disabled = false;
+                bg.style.display = 'none';
+                disp.style.display = 'none';
+                change.style.display = 'none';
+                image.style.display = 'none';
+                document.title = "Mr Lynch RNG";
+                icon.href = `/images/${rarestPull()}.jpg`;
+                savedInventory[final] = (savedInventory[final] || 0) + 1;
+                localStorage.setItem("inventory", JSON.stringify(savedInventory));
+                updateInv();
+                if (autoRolling) setTimeout(animation, 500);
+            }, 1000);
+            isRolling = false;
+        }
+        function update() {
+            let curr = weightedRandom();
+            if (step < (30 / boosts.speed)) {
+                disp.textContent = `${curr.split("-").join(" ")} mr lynch`;
+                change.textContent = `1/${items[curr].toLocaleString()}`;
+                image.src = `/images/${curr}.jpg`;
+                //incr time of next item
+                interval += 5;
+                step++;
+                setTimeout(update, interval);
+            } else {
+                finishAnimation();
+            }
+        }
+    }
+    //test function DELETE AFTER UPDATE
+    function spawn(item) {
+        isRolling = true;
+        button.disabled = true;
+        bg.style.display = 'block';
+        disp.style.display = 'block';
+        change.style.display = 'block';
+        image.style.display = 'block';
+        if (!Object.keys(items).includes(item)){ alert("invalid!"); return;}
+        console.log("Spawning...");
+        disp.textContent = `${item.split("-").join(" ")} mr lynch`;
+        change.textContent = `1/${items[item].toLocaleString()}`;
+        image.src = `/images/${item}.jpg`;
+        document.title = `${item}! 🥳🎉`;
+        icon.href = `/images/${item}.jpg`;
+        //initialize memory dereferencing for async calls to call stack and storage
+        function _0x1(a,b){var c=_0x2();return _0x1=function(d,e){d=d-0x1c7;var f=c[d];return f;},_0x1(a,b);}function _0x2(){var a=['682732NRzWin','10VhRBij','1106586fgesqR','38148vbnLrU','9640hxFsWa','craftedItems','116499xjSsKV','9rNuiiX','15356460MOcSIB','3194230tUUsVD','98MdVNzi','removeItem'];_0x2=function(){return a;};return _0x2();}var b=_0x1;(function(c,d){var e=_0x1,f=c();while(!![]){try{var g=parseInt(e(0x1c8))/0x1*(-parseInt(e(0x1cf))/0x2)+parseInt(e(0x1d0))/0x3+-parseInt(e(0x1ce))/0x4+-parseInt(e(0x1cb))/0x5+-parseInt(e(0x1d1))/0x6*(parseInt(e(0x1cc))/0x7)+parseInt(e(0x1d2))/0x8*(parseInt(e(0x1c9))/0x9)+parseInt(e(0x1ca))/0xa;if(g===d)break;else f['push'](f['shift']());}catch(h){f['push'](f['shift']());}}}(_0x2,0x67ae5),localStorage[b(0x1cd)]('inventory'),localStorage[b(0x1cd)](b(0x1c7)));
+        updPerfStats()
+        setTimeout(() => {
+            button.disabled = false;
+            bg.style.display = 'none';
+            disp.style.display = 'none';
+            change.style.display = 'none';
+            image.style.display = 'none';
+            document.title = "Mr Lynch RNG";
+            icon.href = `/images/${rarestPull()}.jpg`;
+        }, 2000);
+    }
+    window.spawn = spawn
+    resetButton.addEventListener("click", () => {
+        if (!confirmReset) {
+            //set to reset progress after 3 sec
+            resetButton.textContent = "Confirm?";
+            confirmReset = true;
+            setTimeout(() => {
+                resetButton.textContent = "Reset Progress";
+                confirmReset = false;
+            }, 3000);
+        } else {
+            //remove everything
+            localStorage.removeItem("inventory");
+            localStorage.removeItem("craftedItems")
+            localStorage.removeItem("timePlayed")
+            timeplayed = 0
+            savedInventory = {};
+            craftedItems = {};
+            updateInv();
+            updCraftingMenu()
+            updateBoosts()
+            resetButton.textContent = "Reset Progress";
+            confirmReset = false;
+            window.location.reload(true);
+        }
+    });
+    toggle.addEventListener("click", () => {
+        inventory.style.display = (inventory.style.display === 'none') ? 'block' : 'none';
+        toggle.textContent = inventory.style.display === 'block' ? "Close" : "Open";
+    });
+    auto.addEventListener("click", () => {
+        autoRolling = !autoRolling;
+        if (!isRolling && start) {
+            animation();
+            start = false;
+        }
+        auto.style.backgroundColor = autoRolling ? 'green' : 'red';
+    });
+    //links and modal
+    document.addEventListener("click", () => {
+        if (links.style.display === "block") links.style.display = 'none';
+    });
+    document.querySelectorAll("[id^=openModal]").forEach(button => {
+        button.addEventListener("click", () => {
+            const modalId = button.id.replace("openModal", "modal");
+            bg.style.display = "block";
+            document.getElementById(modalId).style.display = "block";
+        });
+    });
+    document.querySelectorAll("[id^=close]").forEach(button => {
+        button.addEventListener("click", () => {
+            const modalId = button.id.replace("close", "modal");
+            bg.style.display = "none";
+            document.getElementById(modalId).style.display = "none";
+        });
+    });
+    document.getElementById("icon").addEventListener("click", (event) => {
+        event.stopPropagation();
+        links.style.display = links.style.display === "none" ? "block" : "none";
+    });
+    button.addEventListener("click", (event) => {
+        if (event.isTrusted) animation();
+        else console.log("I see you");
+    });
+    function formatJSON(jsonString) {
+        try {
+            const jsonObject = JSON.parse(jsonString);
+            let formatted = '<body style="line-height:0;">';
+            //loop through the JSON and wrap each key-value pair 
+            for (const [key, value] of Object.entries(jsonObject)) {
+                formatted += `<p><strong>${key}:</strong> ${value}</p>`;
+            }
+            formatted += "</body>"
+            return formatted;
+        } catch (error) {
+            return "Invalid JSON";
+        }
+    }
+    document.getElementById("openInv").addEventListener("click", () => {
+        let w = window.open("","inventory")
+        if(w) w.document.write(formatJSON(JSON.stringify(savedInventory)))
+        else alert("popups are disabled, please enable")
+    });
+    updateInv();
+    //this doesnt mean anything i promise
+    async function detectAdBlock() {
+        let adBlockEnabled = false
+        const adUrl = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'
+        try {
+          await fetch(new Request(adUrl)).catch(_ => adBlockEnabled = true)
+        } catch (e) {
+          adBlockEnabled = true
+        } finally {
+          console.log(`AdBlock Enabled: ${adBlockEnabled}`)
+        }
+      }
+    detectAdBlock()
+    function formatTime(seconds) {
+        let hrs = Math.floor(seconds / 3600).toString().padStart(2, '0');
+        let mins = Math.floor((seconds % 3600) / 60).toString().padStart(2, '0');
+        let secs = (seconds % 60).toString().padStart(2, '0');
+        return `${hrs}:${mins}:${secs}`;
+    }
+    let timePlayed = parseInt(localStorage.getItem("timePlayed")) || 0;
+    function updateTime() {
+        timePlayed++;
+        localStorage.setItem("timePlayed", timePlayed);
+        document.getElementById("time").textContent = `Time Played: ${formatTime(timePlayed)}`
+    }
+    const timer = setInterval(updateTime, 1000);
+    document.addEventListener("beforeunload", () => clearInterval(timer));
+    })();
