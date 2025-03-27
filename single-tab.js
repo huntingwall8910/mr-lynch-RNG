@@ -1,22 +1,48 @@
-//yes it's defer i know
-document.addEventListener('DOMContentLoaded', () => {
-    const TAB_KEY = 'single_tab_allowed';
-    const tabId = Date.now().toString();
-    if (localStorage.getItem(TAB_KEY)) {
-        alert("Only one tab is allowed.");
-        window.close();
-        window.location.href = "about:blank";
-    } else {
-        localStorage.setItem(TAB_KEY, tabId);
+const storageKey = 'one-tab-enforcer';
+const tabId = Math.random().toString(36).substring(2, 15);
+const checkInterval = 1000; 
+const expirationTime = 5000; 
+function claimOwnership() {
+  localStorage.setItem(storageKey, JSON.stringify({
+    id: tabId,
+    timestamp: Date.now()
+  }));
+}
+function checkOwnership() {
+  const storedData = localStorage.getItem(storageKey);
+  if (!storedData) return true;
+  try {
+    const { id, timestamp } = JSON.parse(storedData);
+    const isExpired = Date.now() - timestamp > expirationTime;
+    if (id !== tabId && !isExpired) {
+      alert('Already open in another tab');
+      window.close();
+      return false;
     }
-    window.addEventListener('storage', (event) => {
-        if (event.key === TAB_KEY && event.newValue !== tabId) {
-            alert("Another tab was opened.");
-            window.close();
-            window.location.href = "about:blank";
-        }
-    });
-    window.addEventListener('beforeunload', () => {
-        localStorage.removeItem(TAB_KEY);
-    });
+    if (isExpired) {
+      claimOwnership();
+    }
+  } catch (e) {
+    claimOwnership();
+  }
+  return true;
+}
+if (!checkOwnership()) {
+    window.location.href = "about:blank"
+}
+const intervalId = setInterval(() => {
+  claimOwnership();
+}, checkInterval);
+window.addEventListener('beforeunload', () => {
+  localStorage.removeItem(storageKey);
+  clearInterval(intervalId);
+});
+window.addEventListener('load', () => {
+  const storedData = localStorage.getItem(storageKey);
+  if (storedData) {
+    const { timestamp } = JSON.parse(storedData);
+    if (Date.now() - timestamp > expirationTime) {
+      localStorage.removeItem(storageKey);
+    }
+  }
 });
