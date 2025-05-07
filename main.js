@@ -167,12 +167,10 @@
     let userId = localStorage.getItem("uId")
     if (!userId){
         localStorage.setItem("uId",Array.from({ length: 10 }, () => Math.floor(Math.random() * 10)).join(''))
+        userId = localStorage.getItem("uId")
     }
-    else {
-        document.getElementById("user-id").textContent = `Id: ${userId}`
-    }
+    document.getElementById("user-id").textContent = `Id: ${userId}`
     let savedInventory = JSON.parse(localStorage.getItem("inventory")) || {};
-    let confirmReset = false;
     function sortInventory() {
         return Object.fromEntries(
             Object.entries(savedInventory).sort(
@@ -440,26 +438,16 @@
     }
     window.spawn = spawn
     resetButton.addEventListener("click", () => {
-        if (!confirmReset) {
-            //set to reset progress after 3 sec
-            resetButton.textContent = "Confirm?";
-            confirmReset = true;
-            setTimeout(() => {
-                resetButton.textContent = "Reset Progress";
-                confirmReset = false;
-            }, 3000);
-        } else {
-            //remove everything
+        if (confirm("Are you sure you want to delete your progress?")){
             localStorage.removeItem("inventory");
             localStorage.removeItem("craftedItems")
             localStorage.removeItem("timePlayed")
-            timeplayed = 0
+            timePlayed = 0
             savedInventory = {};
             craftedItems = {};
             updateInv();
             updCraftingMenu()
             updateBoosts()
-            resetButton.textContent = "Reset Progress";
             confirmReset = false;
             window.location.reload(true);
         }
@@ -547,6 +535,15 @@
         localStorage.setItem("timePlayed", timePlayed);
         document.getElementById("time").textContent = `Time Played: ${formatTime(timePlayed)}`
     }
-    const timer = setInterval(updateTime, 1000);
-    document.addEventListener("beforeunload", () => clearInterval(timer));
+    setInterval(updateTime, 1000);
+    document.addEventListener("mouseout", (e) => {
+        if (e.clientY < 0) {
+            document.getElementById("closing").style.display = 'block'
+        }
+      });
+      document.addEventListener("mouseover", (e) => {
+        if (e.clientY > 0) {
+            document.getElementById("closing").style.display = 'none'
+        }
+      });
     })();

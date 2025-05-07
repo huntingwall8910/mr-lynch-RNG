@@ -85,15 +85,6 @@ button {
     width:50px;
     height:50px;
 }
-#reset {
-    border:white solid;
-    background-color: black;
-    color:white;
-    position: absolute;
-    top:0;
-    left:0;
-    cursor: pointer;
-}
 #roll{
     color:white;
     background-color: green;
@@ -228,7 +219,6 @@ button {
     width:50vw;
     height:50vh;
     border:solid white;
-
 }
 #modal1 > p {
     color:rgb(255, 255, 255);
@@ -297,4 +287,18 @@ ul.recipe li {
     #total,#unlocked,#time {
         display:none;
     }
+}
+#closing {
+    overflow-y: auto;
+    position: fixed;
+    display: none;
+    top: 50%;
+    left:50%;
+    background-color: #000000;
+    z-index:101;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width:50vw;
+    height:50vh;
+    border:solid white;
 }
