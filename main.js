@@ -149,11 +149,11 @@
           };
           img.onerror = () => {
             console.error(`Error loading image: ${url}`);
-            alert("Image failed to load")
+            alert(`Failed to load ${url}`)
           };
         });
     }
-    preloadImages(Object.keys(items).map(key => `./images/${key}.jpg`))
+    preloadImages(Object.keys(items).map(key => `../images/${key}.jpg`))
     function weightedRandom() {
         //item values
         const itemList = Object.entries(items);
@@ -548,3 +548,4 @@
       });
 
     })();
+
