@@ -153,7 +153,11 @@
           };
         });
     }
-    preloadImages(Object.keys(items).map(key => `../images/${key}.jpg`))
+    if (window.location.hostname == "huntingwall8910.github.io"){
+        preloadImages(Object.keys(items).map(key => `/mr-lynch-RNG/images/${key}.jpg`))
+    } else {
+        preloadImages(Object.keys(items).map(key => `/images/${key}.jpg`))
+    }
     function weightedRandom() {
         //item values
         const itemList = Object.entries(items);
@@ -548,4 +552,5 @@
       });
 
     })();
+
 
