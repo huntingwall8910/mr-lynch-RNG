@@ -153,7 +153,7 @@
           };
         });
     }
-    preloadImages(Object.keys(items).map(key => `/images/${key}.jpg`))
+    preloadImages(Object.keys(items).map(key => `./images/${key}.jpg`))
     function weightedRandom() {
         //item values
         const itemList = Object.entries(items);
@@ -546,4 +546,5 @@
             document.getElementById("closing").style.display = 'none'
         }
       });
+
     })();
